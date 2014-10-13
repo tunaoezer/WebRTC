@@ -1,0 +1,11 @@
+Implementation of a WebRTC client that uses WAMP over WebSockets for messaging.
+To establish a connection a WebSocket/WAMP server is required (see my other projects).
+
+Dependencies:
+autobahn.js, see http://autobahn.ws/js
+
+The JavaScript files must included in the order
+autobahn.js (external)
+channel.js
+compatible.js
+webrtc.js
